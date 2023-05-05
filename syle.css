@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.cotainer{
+    margin-left: 5%;
+    margin-right: 5%;
+    position: absolute;
+    top: 50px;
+}
+header nav{
+    text-align: right;
+    background-color: #0D5C63;
+    position: fixed;
+    width: 100%;
+}
+ header nav ul li{
+    display: inline-block;
+    padding: 10px 15px;
+    font-family: 'Roboto', sans-serif;
+    
+   
+    
+
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #F2F2F2;
+}
+.info{
+    margin-top: 10px;
+}
+.info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 100px;
+    
+}
+.contactInfo {
+    padding-top: 60px;
+    border-bottom: 3px solid #0D5C63;
+    padding-bottom: 15px;
+}
+.contactInfo h2{
+    color:#0D5C63 ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    word-spacing: 5px;
+    text-shadow: 1px 1px 1px rgb(75 74 74);
+}
+.contactInfo p{
+    color:#0D5C63 ;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+
+.summary{
+    margin-top: 20px;
+}
+.summary h2{
+    color: #0D5C63;
+    margin-bottom: 30px;
+}
+.summary h2::before{
+    content: '🖊️';
+    border: 1px solid black;
+    margin-right: 10px;
+    padding: 2px 2px;
+}
+.summary ul li{
+    padding: 10px 0px;
+    color: #0D5C63;
+    font-weight: bolder;
+    background-color: bisque;
+    font-size: medium;
+    margin-top: 2px;
+    
+}
+.summary ul li::before{
+    content: '✍️';
+    font-size: larger;
+    padding-right: 20px;
+}
+.summary ul li::selection{
+    background-color: orange;
+}
+.education h3{
+    color: #0D5C63;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-top: 30px;
+}
+.education h3::before{
+    content: '🧑‍🎓';
+    border: 1px solid black;
+    margin-right: 10px;
+    padding: 2px 2px;
+}
+
+.education table,th,tr,td{
+    border: 1px solid #0D5C63 ;
+  border-collapse: separate;
+  font-size: medium;
+  font-weight: bolder;
+
+ 
+}
+.education table,th,td{
+    padding: 10px;
+    margin-top: 20px;
+}
+.education th{
+    background-color: rgb(246, 197, 197);
+}
+.techstack h3{
+    margin-top: 50px;
+    color: #0D5C63;
+    margin-bottom: 20px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.techstack h3::before{
+    content: '👩‍💻';
+    border: 1px solid black;
+    margin-right: 10px;
+    padding: 2px 2px;
+}
+.techstack table,tr,td{
+    border: 2px solid #0D5C63;
+    border-collapse: collapse;
+    color: #0D5C63;
+    padding: 20px 20px 20px 20px;
+
+   
+}
+.person h3{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: x-large;
+    color: #0D5C63;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+figcaption{
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #0D5C63;
+    display: inline-block;
+    background-color: blanchedalmond;
+    width: 400px;
+  
+}
+.mail{
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    color: #0D5C63;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    height: 100px;
+    padding-left: 10px;
+
+    background-color: blanchedalmond;
+    width: 500px;
+
+
+
+}
+.person img {
+    display: inline;
+    float: left;
+}
+.person summary{
+
+    font-size: x-large;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.person ul li {
+    font-size: large;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    padding-bottom: 10px;
+}
+.person h3::before{
+    content: '🤷‍♀️';
+    border: 1px solid black;
+    margin-right: 10px;
+    padding: 2px 2px;
+}
+.person ul li::before{
+    content: '➡️';
+    font-size: small;
+   
+
+}
+
+
+
+
